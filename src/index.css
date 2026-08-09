@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-main: #050816;
+  --color-bg-section: #0B1020;
+  --color-bg-card: #111827;
+  --color-bg-card-hover: #172033;
+  --color-accent-primary: #00E5FF;
+  --color-accent-secondary: #8B5CF6;
+  --color-accent-blue: #3B82F6;
+  --color-text-main: #F8FAFC;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #94A3B8;
+  --color-border-main: #1E293B;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-bg-main text-text-secondary antialiased selection:bg-accent-primary/30 selection:text-accent-primary;
+  }
+}
