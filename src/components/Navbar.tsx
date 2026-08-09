@@ -81,7 +81,7 @@ export function Navbar() {
             <div className="flex items-center gap-4">
               
               <a
-                href="/resume.pdf"
+                href="/karthik_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 text-sm font-medium bg-cyan-500/10 text-accent-primary dark:text-accent-primary border border-accent-primary/20 rounded-full hover:bg-cyan-500 hover:text-black dark:hover:text-black transition-colors"
@@ -146,7 +146,7 @@ export function Navbar() {
                 ))}
                 <li className="mt-4">
                   <a
-                    href="/resume.pdf"
+                    href="/karthik_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-5 py-2.5 text-sm font-medium bg-cyan-500 text-black rounded-full hover:bg-cyan-400 transition-colors"

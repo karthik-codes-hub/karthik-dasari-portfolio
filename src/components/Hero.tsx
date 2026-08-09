@@ -74,7 +74,7 @@ export function Hero() {
                 View My Projects <ArrowRight className="w-5 h-5" />
               </a>
               <a
-                href="/resume.pdf"
+                href="/karthik_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 rounded-full bg-bg-card hover:bg-bg-card-hover text-text-secondary border border-border-main hover:border-accent-primary/50 transition-all backdrop-blur-md"
